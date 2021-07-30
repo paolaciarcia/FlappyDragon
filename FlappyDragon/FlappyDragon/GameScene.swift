@@ -29,6 +29,9 @@ class GameScene: SKScene {
     var enemyCategory: UInt32 = 2
     var scoreCategory: UInt32 = 4
     
+    var scoreSound = SKAction.playSoundFileNamed("score.mp3", waitForCompletion: false)
+    var gameOverSound = SKAction.playSoundFileNamed("hit.mp3", waitForCompletion: false)
+    
     override func didMove(to view: SKView) {
         physicsWorld.contactDelegate = self
         addBackground()
@@ -232,8 +235,10 @@ extension GameScene: SKPhysicsContactDelegate {
             if contact.bodyA.categoryBitMask == scoreCategory || contact.bodyB.categoryBitMask == scoreCategory {
                 score += 1
                 scoreLabel.text = "\(score)"
+                run(scoreSound)
             } else if contact.bodyA.categoryBitMask == enemyCategory || contact.bodyB.categoryBitMask == enemyCategory {
                 gameOver()
+                run(gameOverSound)
             }
         }
     }

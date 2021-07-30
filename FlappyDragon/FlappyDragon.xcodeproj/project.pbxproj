@@ -63,11 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				6080634326B43C1300C18667 /* AppDelegate.swift */,
-				6080636126B43F2A00C18667 /* Launch Screen.storyboard */,
 				6080634926B43C1300C18667 /* GameScene.swift */,
 				6080634B26B43C1300C18667 /* GameViewController.swift */,
 				6080634D26B43C1300C18667 /* Main.storyboard */,
 				6080635026B43C1D00C18667 /* Assets.xcassets */,
+				6080636126B43F2A00C18667 /* Launch Screen.storyboard */,
 				6080635226B43C1D00C18667 /* Info.plist */,
 				6080635926B43E8700C18667 /* Files */,
 			);
@@ -308,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.paola.FlappyDragon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -327,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.paola.FlappyDragon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
