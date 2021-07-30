@@ -17,6 +17,7 @@
 		6080635D26B43EA600C18667 /* score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6080635A26B43EA600C18667 /* score.mp3 */; };
 		6080635E26B43EA600C18667 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6080635B26B43EA600C18667 /* hit.mp3 */; };
 		6080635F26B43EA600C18667 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6080635C26B43EA600C18667 /* music.m4a */; };
+		6080636226B43F2A00C18667 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6080636126B43F2A00C18667 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6080635A26B43EA600C18667 /* score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = score.mp3; sourceTree = "<group>"; };
 		6080635B26B43EA600C18667 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
 		6080635C26B43EA600C18667 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+		6080636126B43F2A00C18667 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				6080634326B43C1300C18667 /* AppDelegate.swift */,
 				6080634526B43C1300C18667 /* GameScene.sks */,
 				6080634726B43C1300C18667 /* Actions.sks */,
+				6080636126B43F2A00C18667 /* Launch Screen.storyboard */,
 				6080634926B43C1300C18667 /* GameScene.swift */,
 				6080634B26B43C1300C18667 /* GameViewController.swift */,
 				6080634D26B43C1300C18667 /* Main.storyboard */,
@@ -146,6 +149,7 @@
 			files = (
 				6080635E26B43EA600C18667 /* hit.mp3 in Resources */,
 				6080635F26B43EA600C18667 /* music.m4a in Resources */,
+				6080636226B43F2A00C18667 /* Launch Screen.storyboard in Resources */,
 				6080634F26B43C1300C18667 /* Main.storyboard in Resources */,
 				6080634626B43C1300C18667 /* GameScene.sks in Resources */,
 				6080635D26B43EA600C18667 /* score.mp3 in Resources */,
