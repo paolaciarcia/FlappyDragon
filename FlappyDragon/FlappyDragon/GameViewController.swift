@@ -25,8 +25,9 @@ class GameViewController: UIViewController {
     
     func presentScene() {
         let scene = GameScene(size: CGSize(width: view.frame.size.width, height: view.frame.size.height))
+        scene.gameViewController = self
         scene.scaleMode = .aspectFill
-        stage?.presentScene(scene)
+        stage?.presentScene(scene, transition: .doorsOpenVertical(withDuration: 0.5))
     }
 
     override var prefersStatusBarHidden: Bool {
